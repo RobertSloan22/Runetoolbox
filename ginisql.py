@@ -1,23 +1,4 @@
-fullstacktacodev
-fullstacktacodev
-Online
 
-Cubs — Today at 8:29 PM
-that we don't see
-fullstacktacodev — Today at 8:30 PM
-is that the same gini data script you gave me?
-ok so i initially ran into a cursor error in the logs when i first ran that a while back i thought it was something i did so i fixed it and its been running good since i just checked the logs and system staus for the service running it on th server and we all look good i included here the corrected code im running from the updated sql query you gave me
-Image
-Image
-  File "/home/robert/Datascience/newsql.py", line 288, in create_table_if_not_exists
-    cursor.close()
-    ^^^^^^
-UnboundLocalError: cannot access local variable 'cursor' where it is not associated with a value
-Traceback (most recent call last):
-  File "/home/robert/Datascience/newsql.py", line 407, in <module>
-Expand
-message.txt
-9 KB
 import time
 import json
 import cloudscraper
