@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keystroke and Website Tracker</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; }
+    h1 { font-size: 18px; margin-bottom: 20px; }
+    ul { padding-left: 0; list-style-type: none; }
+    button { margin-bottom: 10px; }
+    .list-group-item { display: flex; justify-content: space-between; align-items: center; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Keystroke and Website Tracker</h1>
+    <button id="showKeystrokes" class="btn btn-primary mb-3">Show Keystrokes</button>
+    <ul id="keystrokeList" class="list-group mb-3"></ul>
+    <button id="showVisitedSites" class="btn btn-primary mb-3">Show Visited Sites</button>
+    <ul id="websiteList" class="list-group"></ul>
+    <button id="showSidebar" class="btn btn-secondary mb-3">Open Sidebar</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
