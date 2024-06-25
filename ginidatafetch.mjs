@@ -20,7 +20,7 @@ const apiCalls = [
 
 const options = {
     method: 'GET',
-    headers: { accept: 'application/json', 'api-key': '142cf1b0-1ca7-11ee-bb5e-9d74c2e854ac' }
+    headers: { accept: 'application/json', 'api-key': '' }
 };
 
 async function fetchAndSaveData() {
